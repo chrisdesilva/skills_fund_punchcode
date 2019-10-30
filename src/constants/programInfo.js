@@ -69,7 +69,7 @@ export const faq = { // faq section
     // max loan amounts by program for faq1
     loanRange: [
         {
-            programName: "PunchCode's Front End Software Engineering program",
+            programName: "PunchCode's Full Stack Software Engineering program",
             maxAmount: "$12,400",
             col: true,
             colAmount: "$3,000"
@@ -100,7 +100,7 @@ export const threeStepCardText = {
     step1: "",
     step2: {
         header: "select your program",
-        text: "PunchCode focuses exclusively on its Front End Software Engineering program."
+        text: "PunchCode focuses exclusively on its Full Stack Software Engineering program."
     },
     step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`
 }
@@ -128,7 +128,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 
 export const programLoanInfo = [ // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
     {
-        name: "Front End Software Engineering",
+        name: "Full Stack Software Engineering",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKPC19",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 15400,
@@ -317,7 +317,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $12,400 for Punchcode's Front End Software Engineering Program tuition and up to $3,000 for living costs."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $12,400 for Punchcode's Full Stack Software Engineering Program tuition and up to $3,000 for living costs."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
