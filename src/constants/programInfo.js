@@ -50,13 +50,13 @@ export const schoolInfo = {
 export const faq = {
 	// faq section
 	costOfLiving: true, // true if at least one program has cost of living included
-	costOfLivingPrograms: '', // leave as empty string is cost of living availability is the same across all programs
+	costOfLivingPrograms: 'Full Stack Software Engineering', // leave as empty string is cost of living availability is the same across all programs
 	multCostOfLivingPrograms: false, // true if costOfLivingPrograms string has more than one program
 	interestOnly: true, // true if interest-only payments are an option
 	immediateRepayment: false, // true if immediate repayment is an option
 	multipleLoanLengths: false, // true if 36 and 60 month options are both available
 	multipleLoanTypes: false, // true if both IR and IO are available
-	multiPrograms: false, // only true if there are multiple programs
+	multiPrograms: true, // only true if there are multiple programs
 	onlinePrograms: false, // true if at least one program is remote/online
 	schoolHQState: 'WA',
 	origFee: 0.04,
