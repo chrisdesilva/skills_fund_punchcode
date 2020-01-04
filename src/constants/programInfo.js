@@ -337,7 +337,7 @@ export const programLoanInfo = [
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-	"Choose the loan amount that works best for you. Borrow up to $12,400 for Punchcode's Full Stack Software Engineering Program tuition and up to $3,000 for living costs or up to $10,900 for the Part-Time Full Stack program.";
+	"Choose the loan amount that works best for you. Borrow up to $12,400 for Punchcode's Full Stack Software Engineering Program tuition and up to $3,000 for living costs or up to $10,900 for the Part-Time Full Stack Software Engineering program.";
 
 export const paymentTable = {
 	headers: [ 'Program', 'Tuition', 'Cost of Living', 'Max Total' ],
